@@ -1,6 +1,6 @@
 <!-- Imagen de cabecera -->
 <p align="center">
-  <img src="https://example.com/imagen-cabecera.png" alt="Logo del proyecto" width="200">
+  <img src="https://ibb.co/kH5fr6d" alt="Logo del proyecto" width="200">
 </p>
 
 <!-- Título -->
