@@ -22,6 +22,6 @@ El proyecto "Need U" se centra en el apoyo y la ayuda a comunidades vulnerables 
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros. Puedes encontrarnos en [nuestro sitio web](https://example.com) o escribirnos a [correo@example.com](mailto:correo@example.com).
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros. Puedes encontrarnos en [nuestro sitio web](https://needU.com) o escribirnos a (aa2021071075@virtual.upt.pe).
 
 ¡Gracias por tu interés en el proyecto "Need U"!
