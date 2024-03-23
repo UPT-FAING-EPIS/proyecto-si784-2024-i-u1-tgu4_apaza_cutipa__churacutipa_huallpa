@@ -1,7 +1,8 @@
 <!-- Imagen de cabecera -->
 <p align="center">
-  <img src="https://ibb.co/kH5fr6d" alt="Logo del proyecto" width="200">
+  <img src="https://i.ibb.co/kH5fr6d/imagen-cabecera.png" alt="Imagen de cabecera" width="200">
 </p>
+
 
 <!-- Título -->
 <h1 align="center">Proyecto "Need U"</h1>
