@@ -1,0 +1,90 @@
+
+horg.apache.jsp.web.common_005ffunctions_jsp#_jsp_getInstanceManager()Lorg/apache/tomcat/InstanceManager;p
+f/C:/calidad/gitneedu/NeeduQube/needu/.scannerwork/jsp/org/apache/jsp/web/common_005ffunctions_jsp.java>+ >(B"5*î
+2B! B($ßÜ
+Be B(w!
+%4javax.servlet.ServletConfig"Ljavax.servlet.GenericServlet#getServletConfig()Ljavax/servlet/ServletConfig;*K
+
+__unknown_file (/-
++org.apache.jsp.web.common_005ffunctions_jsp2getServletConfig()Ñ
+Î
+B! B(x'
+%5!org.apache.tomcat.InstanceManager"…org.apache.jasper.runtime.InstanceManagerFactory#getInstanceManager(Ljavax/servlet/ServletConfig;)Lorg/apache/tomcat/InstanceManager;*P
+
+__unknown_file (4"2
+0org.apache.jasper.runtime.InstanceManagerFactory*?
+
+__unknown_file (#
+!
+%4javax.servlet.ServletConfig£
+ 
+B
+ B(xG-
++org.apache.jsp.web.common_005ffunctions_jsp"
+_jsp_instancemanager"__id*E
+
+__unknown_file ()
+'
+%5!org.apache.tomcat.InstanceManager*
+1*ô
+3A A( £
+ 
+A A( '
+%2!org.apache.tomcat.InstanceManager"__id*e
+
+__unknown_file (I*G-
++org.apache.jsp.web.common_005ffunctions_jsp"
+_jsp_instancemanager¶
+³
+A A((
+%3boolean"	__compare*"
+
+__unknown_file (
+==*E
+
+__unknown_file ()
+'
+%2!org.apache.tomcat.InstanceManager*"
+
+__unknown_file (
+""*
+2
+1*ô
+5? ?(£
+ 
+? ?('
+%0!org.apache.tomcat.InstanceManager"__id*e
+
+__unknown_file (I*G-
++org.apache.jsp.web.common_005ffunctions_jsp"
+_jsp_instancemanager¶
+³
+? ?($
+%1boolean"	__compare*"
+
+__unknown_file (
+==*E
+
+__unknown_file ()
+'
+%0!org.apache.tomcat.InstanceManager*"
+
+__unknown_file (
+""*
+3
+1*ê
+1F F(£
+ 
+F F('
+%6!org.apache.tomcat.InstanceManager"__id*e
+
+__unknown_file (I*G-
++org.apache.jsp.web.common_005ffunctions_jsp"
+_jsp_instancemanager"5
+F F( )
+'
+%6!org.apache.tomcat.InstanceManager:*
+
+__unknown_file (
+%jsp_contextB/-
++org.apache.jsp.web.common_005ffunctions_jspH
