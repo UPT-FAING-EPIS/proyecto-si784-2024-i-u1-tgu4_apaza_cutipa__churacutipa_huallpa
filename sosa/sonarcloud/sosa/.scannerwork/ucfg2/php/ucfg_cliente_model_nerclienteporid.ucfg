@@ -1,0 +1,112 @@
+
+!clientemodel::obtenerclienteporidA
+7C:\calidad\sosa\sonarcloud\sosa\MODEL\cliente_model.php3 3('"1*Ø
+15 5(-P
+N
+5 5(,
+%1"conectar::conexion*(
+
+__unknown_file ("
+
+conectarC
+A
+5 5(,
+	$conexion"__id*"
+
+__unknown_file (
+
+%1g
+e
+7 7(@
+$sql"__id*K
+
+__unknown_file (/-
++SELECT * FROM tbcliente WHERE idcliente = ?lj
+9 9(,
+%2*)
+
+__unknown_file (
+
+	$conexion*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+9 9(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2•’
+; ;(.
+%3*%
+
+__unknown_file (	
+
+$stmt*!
+
+__unknown_file (
+i**
+
+__unknown_file (
+
+
+$idcliente2
+bind_paramB@
+= =(
+%4*%
+
+__unknown_file (	
+
+$stmt2executeEC
+? ?(,
+%5*%
+
+__unknown_file (	
+
+$stmt2
+get_resultD
+B
+? ?(,
+
+$resultado"__id*"
+
+__unknown_file (
+
+%5KI
+A A(0
+%6**
+
+__unknown_file (
+
+
+$resultado2fetch_assocB
+@
+A A(0
+
+$cliente"__id*"
+
+__unknown_file (
+
+%6@>
+C C(
+%7*%
+
+__unknown_file (	
+
+$stmt2closeDB
+D D(
+%8*)
+
+__unknown_file (
+
+	$conexion2close"
+E E(
+
+
+$cliente:
+3( 3(2
+
+$idclienteB
+clientemodelH

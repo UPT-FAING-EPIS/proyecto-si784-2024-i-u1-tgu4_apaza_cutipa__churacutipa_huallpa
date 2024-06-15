@@ -1,0 +1,79 @@
+
+usuario::login;
+1C:\calidad\sosa\sonarcloud\sosa\MODEL\Usuario.php ("1*¥
+1 (_I
+G
+ (
+%1"__id*/
+
+__unknown_file (*	
+usuario"
+dbš—
+ (^
+%2*"
+
+__unknown_file (
+
+%1*X
+
+__unknown_file (<:
+8SELECT * FROM tbadmin WHERE usuario = ? AND password = ?2prepare?
+=
+ (^
+$stmt"__id*"
+
+__unknown_file (
+
+%2À½
+ (5
+%3*%
+
+__unknown_file (	
+
+$stmt*"
+
+__unknown_file (
+ss*)
+
+__unknown_file (
+
+	$username*)
+
+__unknown_file (
+
+	$password2
+bind_paramB@
+ (
+%4*%
+
+__unknown_file (	
+
+$stmt2executeEC
+ (%
+%5*%
+
+__unknown_file (	
+
+$stmt2
+get_resultA
+?
+ (%	
+$result"__id*"
+
+__unknown_file (
+
+%5HF
+ (%
+%6*'
+
+__unknown_file (
+	
+$result2fetch_assoc"
+ (&
+
+%6:
+ (#
+	$username:
+% (.
+	$passwordB	
+usuarioH

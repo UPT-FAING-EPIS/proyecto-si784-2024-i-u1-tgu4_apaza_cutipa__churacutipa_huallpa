@@ -1,0 +1,105 @@
+
+cliente::editarcliente;
+1C:\calidad\sosa\sonarcloud\sosa\MODEL\Cliente.php   (!"1*ú
+1	" "(‘º
+·
+	" "(
+$sql"__id*›
+
+__unknown_file (}
+{UPDATE tbcliente SET nombre = ?, apellido = ?, correo = ?, iddocumento = ?, documento = ?, telefono = ? WHERE idcliente = ?I
+G
+# #(
+%1"__id*/
+
+__unknown_file (*	
+cliente"
+dbec
+# #(,
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+# #(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2š
+$ $(v
+%3*%
+
+__unknown_file (	
+
+$stmt*'
+
+__unknown_file (	
+sssissi*'
+
+__unknown_file (
+	
+$nombre*)
+
+__unknown_file (
+
+	$apellido*'
+
+__unknown_file (
+	
+$correo*,
+
+__unknown_file (
+
+$iddocumento**
+
+__unknown_file (
+
+
+$documento*)
+
+__unknown_file (
+
+	$telefono**
+
+__unknown_file (
+
+
+$idcliente2
+bind_paramB@
+% %(
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+& &(
+%5*%
+
+__unknown_file (	
+
+$stmt2close"
+' '(
+true:
+ "  (,
+
+$idcliente:
+ .  (5	
+$nombre:
+ 7  (@
+	$apellido:
+ B  (I	
+$correo:
+ K  (W
+$iddocumento:
+ Y  (c
+
+$documento:
+ e  (n
+	$telefonoB	
+clienteH

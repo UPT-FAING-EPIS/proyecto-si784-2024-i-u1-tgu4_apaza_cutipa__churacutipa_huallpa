@@ -1,0 +1,104 @@
+
+maquinaria::editarmaquinaria>
+4C:\calidad\sosa\sonarcloud\sosa\MODEL\Maquinaria.php] ]($"1*ú
+1	_ _(•À
+½
+	_ _(”
+$sql"__id*¡
+
+__unknown_file („
+UPDATE tbmaquinaria SET numserie = ?, nombre = ?, marca = ?, modelo = ?, costoh = ?, imagenprincipal = ? WHERE idmaquinaria = ?L
+J
+` `(
+%1"__id*2
+
+__unknown_file (*
+
+maquinaria"
+dbec
+` `(,
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+` `(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2”‘
+a a(m
+%3*%
+
+__unknown_file (	
+
+$stmt*'
+
+__unknown_file (	
+ssssdsi*)
+
+__unknown_file (
+
+	$numserie*'
+
+__unknown_file (
+	
+$nombre*&
+
+__unknown_file (
+
+
+$marca*'
+
+__unknown_file (
+	
+$modelo*'
+
+__unknown_file (
+	
+$costoh*0
+
+__unknown_file (
+
+$imagenprincipal*#
+
+__unknown_file (
+
+$id2
+bind_paramB@
+b b(
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+c c(
+%5*%
+
+__unknown_file (	
+
+$stmt2close"
+d d(
+true:
+]% ]((
+$id:
+]* ](3
+	$numserie:
+]5 ](<	
+$nombre:
+]> ](D
+$marca:
+]F ](M	
+$modelo:
+]O ](V	
+$costoh:
+]X ](h
+$imagenprincipalB
+
+maquinariaH

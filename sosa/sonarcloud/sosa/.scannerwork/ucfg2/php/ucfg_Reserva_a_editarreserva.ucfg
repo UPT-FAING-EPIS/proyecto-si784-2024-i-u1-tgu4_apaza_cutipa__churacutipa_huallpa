@@ -1,0 +1,118 @@
+
+reserva::editarreserva;
+1C:\calidad\sosa\sonarcloud\sosa\MODEL\Reserva.php7 7(!"1*ä	
+1	9 9(πÂ
+‚
+	9 9(∏
+$sql"__id*∆
+
+__unknown_file (©¶
+£UPDATE tbreserva SET idcliente = ?, idmaquinaria = ?, idcotize = ?, idempleado = ?, fechareserva = ?, fechainicio = ?, fechafin = ?, estado = ? WHERE idreserva = ?I
+G
+: :(
+%1"__id*/
+
+__unknown_file (*	
+reserva"
+dbec
+: :(,
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+: :(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2Çˇ
+	; ;(ö
+%3*%
+
+__unknown_file (	
+
+$stmt*)
+
+__unknown_file (
+	iiiisssii**
+
+__unknown_file (
+
+
+$idcliente*-
+
+__unknown_file (
+
+$idmaquinaria*)
+
+__unknown_file (
+
+	$idcotize*+
+
+__unknown_file (
+
+$idempleado*-
+
+__unknown_file (
+
+$fechareserva*,
+
+__unknown_file (
+
+$fechainicio*)
+
+__unknown_file (
+
+	$fechafin*'
+
+__unknown_file (
+	
+$estado**
+
+__unknown_file (
+
+
+$idreserva2
+bind_paramB@
+< <(
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+= =(
+%5*%
+
+__unknown_file (	
+
+$stmt2close"
+> >(
+true:
+7" 7(,
+
+$idreserva:
+7. 7(8
+
+$idcliente:
+7: 7(G
+$idmaquinaria:
+7I 7(R
+	$idcotize:
+7T 7(_
+$idempleado:
+7a 7(n
+$fechareserva:
+7p 7(|
+$fechainicio:
+	7~ 7(á
+	$fechafin:
+
+7â 7(ê	
+$estadoB	
+reservaH

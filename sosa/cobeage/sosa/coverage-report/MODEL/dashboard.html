@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\calidad\sosa\cobeage\sosa\src\MODEL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=11.0.3" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=11.0.3" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=11.0.3" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">C:\calidad\sosa\cobeage\sosa\src</a></li>
+         <li class="breadcrumb-item"><a href="index.html">MODEL</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Cliente.php.html#2">Cliente</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contrato.php.html#2">Contrato</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Empleado.php.html#2">Empleado</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#2">Mantenimiento</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#2">Maquinaria</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reserva.php.html#2">Reserva</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Usuario.php.html#4">Usuario</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cliente_model.php.html#4">ClienteModel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#4">CotizacionModel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="lugar_model.php.html#4">LugarModel</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Maquinaria.php.html#2">Maquinaria</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#4">CotizacionModel</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Contrato.php.html#2">Contrato</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#2">Mantenimiento</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Reserva.php.html#2">Reserva</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Cliente.php.html#2">Cliente</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="cliente_model.php.html#4">ClienteModel</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="lugar_model.php.html#4">LugarModel</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Empleado.php.html#2">Empleado</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Cliente.php.html#5"><abbr title="Cliente::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cliente.php.html#9"><abbr title="Cliente::listarClientes">listarClientes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cliente.php.html#18"><abbr title="Cliente::agregarCliente">agregarCliente</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cliente.php.html#32"><abbr title="Cliente::editarCliente">editarCliente</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cliente.php.html#46"><abbr title="Cliente::eliminarCliente">eliminarCliente</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cliente.php.html#65"><abbr title="Cliente::buscarCliente">buscarCliente</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contrato.php.html#5"><abbr title="Contrato::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contrato.php.html#9"><abbr title="Contrato::listarContrato">listarContrato</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contrato.php.html#18"><abbr title="Contrato::agregarContrato">agregarContrato</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contrato.php.html#32"><abbr title="Contrato::editarContrato">editarContrato</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contrato.php.html#46"><abbr title="Contrato::eliminarContrato">eliminarContrato</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contrato.php.html#65"><abbr title="Contrato::buscarContrato">buscarContrato</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contrato.php.html#80"><abbr title="Contrato::obtenerContratoPorId">obtenerContratoPorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Empleado.php.html#5"><abbr title="Empleado::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Empleado.php.html#9"><abbr title="Empleado::listarEmpleados">listarEmpleados</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#5"><abbr title="Mantenimiento::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#10"><abbr title="Mantenimiento::listarMantenimiento">listarMantenimiento</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#20"><abbr title="Mantenimiento::agregarMantenimiento">agregarMantenimiento</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#35"><abbr title="Mantenimiento::eliminarMantenimiento">eliminarMantenimiento</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#55"><abbr title="Mantenimiento::editarMantenimiento">editarMantenimiento</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#70"><abbr title="Mantenimiento::buscarMantenimiento">buscarMantenimiento</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#86"><abbr title="Mantenimiento::obtenerMantenimientoPorId">obtenerMantenimientoPorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#4"><abbr title="Maquinaria::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#10"><abbr title="Maquinaria::listarMaquinarias">listarMaquinarias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#19"><abbr title="Maquinaria::mostrarMaquinaria">mostrarMaquinaria</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#50"><abbr title="Maquinaria::listarMaquinariasAdmin">listarMaquinariasAdmin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#60"><abbr title="Maquinaria::agregarMaquinaria">agregarMaquinaria</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#83"><abbr title="Maquinaria::eliminarMaquinaria">eliminarMaquinaria</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#107"><abbr title="Maquinaria::editarMaquinaria">editarMaquinaria</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#122"><abbr title="Maquinaria::buscarMaquinaria">buscarMaquinaria</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Maquinaria.php.html#137"><abbr title="Maquinaria::buscarMaquinariaPorId">buscarMaquinariaPorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reserva.php.html#5"><abbr title="Reserva::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reserva.php.html#10"><abbr title="Reserva::listarReserva">listarReserva</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reserva.php.html#20"><abbr title="Reserva::agregarReserva">agregarReserva</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reserva.php.html#35"><abbr title="Reserva::eliminarReserva">eliminarReserva</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reserva.php.html#55"><abbr title="Reserva::editarReserva">editarReserva</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reserva.php.html#70"><abbr title="Reserva::buscarReserva">buscarReserva</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reserva.php.html#86"><abbr title="Reserva::obtenerReservaPorId">obtenerReservaPorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Usuario.php.html#7"><abbr title="Usuario::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Usuario.php.html#11"><abbr title="Usuario::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cliente_model.php.html#6"><abbr title="ClienteModel::agregarCliente">agregarCliente</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cliente_model.php.html#26"><abbr title="ClienteModel::obtenerUltimoIdCliente">obtenerUltimoIdCliente</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cliente_model.php.html#51"><abbr title="ClienteModel::obtenerClientePorId">obtenerClientePorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#7"><abbr title="CotizacionModel::actualizarCotizacion">actualizarCotizacion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#35"><abbr title="CotizacionModel::obtenerClientePorId">obtenerClientePorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#60"><abbr title="CotizacionModel::obtenerMaquinariaPorId">obtenerMaquinariaPorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#85"><abbr title="CotizacionModel::obtenerLugarPorId">obtenerLugarPorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#110"><abbr title="CotizacionModel::agregarCotizacion">agregarCotizacion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#133"><abbr title="CotizacionModel::obtenerTodasMaquinarias">obtenerTodasMaquinarias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#154"><abbr title="CotizacionModel::obtenerTodosLugares">obtenerTodosLugares</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="lugar_model.php.html#7"><abbr title="LugarModel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="lugar_model.php.html#11"><abbr title="LugarModel::obtenerTodosLugares">obtenerTodosLugares</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="lugar_model.php.html#11"><abbr title="LugarModel::obtenerTodosLugares">obtenerTodosLugares</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Maquinaria.php.html#83"><abbr title="Maquinaria::eliminarMaquinaria">eliminarMaquinaria</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="cliente_model.php.html#26"><abbr title="ClienteModel::obtenerUltimoIdCliente">obtenerUltimoIdCliente</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Cliente.php.html#46"><abbr title="Cliente::eliminarCliente">eliminarCliente</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Contrato.php.html#46"><abbr title="Contrato::eliminarContrato">eliminarContrato</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#35"><abbr title="Mantenimiento::eliminarMantenimiento">eliminarMantenimiento</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Maquinaria.php.html#19"><abbr title="Maquinaria::mostrarMaquinaria">mostrarMaquinaria</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Reserva.php.html#35"><abbr title="Reserva::eliminarReserva">eliminarReserva</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#7"><abbr title="CotizacionModel::actualizarCotizacion">actualizarCotizacion</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#133"><abbr title="CotizacionModel::obtenerTodasMaquinarias">obtenerTodasMaquinarias</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#154"><abbr title="CotizacionModel::obtenerTodosLugares">obtenerTodosLugares</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Cliente.php.html#9"><abbr title="Cliente::listarClientes">listarClientes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Cliente.php.html#18"><abbr title="Cliente::agregarCliente">agregarCliente</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Cliente.php.html#32"><abbr title="Cliente::editarCliente">editarCliente</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Cliente.php.html#65"><abbr title="Cliente::buscarCliente">buscarCliente</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Contrato.php.html#9"><abbr title="Contrato::listarContrato">listarContrato</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Contrato.php.html#18"><abbr title="Contrato::agregarContrato">agregarContrato</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Contrato.php.html#32"><abbr title="Contrato::editarContrato">editarContrato</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Contrato.php.html#65"><abbr title="Contrato::buscarContrato">buscarContrato</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Empleado.php.html#9"><abbr title="Empleado::listarEmpleados">listarEmpleados</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#10"><abbr title="Mantenimiento::listarMantenimiento">listarMantenimiento</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#20"><abbr title="Mantenimiento::agregarMantenimiento">agregarMantenimiento</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#55"><abbr title="Mantenimiento::editarMantenimiento">editarMantenimiento</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mantenimiento.php.html#70"><abbr title="Mantenimiento::buscarMantenimiento">buscarMantenimiento</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Maquinaria.php.html#10"><abbr title="Maquinaria::listarMaquinarias">listarMaquinarias</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Maquinaria.php.html#50"><abbr title="Maquinaria::listarMaquinariasAdmin">listarMaquinariasAdmin</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Maquinaria.php.html#60"><abbr title="Maquinaria::agregarMaquinaria">agregarMaquinaria</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Maquinaria.php.html#107"><abbr title="Maquinaria::editarMaquinaria">editarMaquinaria</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Maquinaria.php.html#122"><abbr title="Maquinaria::buscarMaquinaria">buscarMaquinaria</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Reserva.php.html#10"><abbr title="Reserva::listarReserva">listarReserva</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Reserva.php.html#20"><abbr title="Reserva::agregarReserva">agregarReserva</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Reserva.php.html#55"><abbr title="Reserva::editarReserva">editarReserva</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Reserva.php.html#70"><abbr title="Reserva::buscarReserva">buscarReserva</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="cliente_model.php.html#6"><abbr title="ClienteModel::agregarCliente">agregarCliente</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="cliente_model.php.html#51"><abbr title="ClienteModel::obtenerClientePorId">obtenerClientePorId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#35"><abbr title="CotizacionModel::obtenerClientePorId">obtenerClientePorId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#60"><abbr title="CotizacionModel::obtenerMaquinariaPorId">obtenerMaquinariaPorId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#85"><abbr title="CotizacionModel::obtenerLugarPorId">obtenerLugarPorId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="cotizacion_model.php.html#110"><abbr title="CotizacionModel::agregarCotizacion">agregarCotizacion</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.3</a> using <a href="https://www.php.net/" target="_top">PHP 8.2.4</a> and <a href="https://phpunit.de/">PHPUnit 11.2.1</a> at Sat Jun 15 7:49:27 CEST 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=11.0.3" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=11.0.3" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=11.0.3" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([10,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([52,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,12,"<a href=\"Cliente.php.html#2\">Cliente<\/a>"],[0,13,"<a href=\"Contrato.php.html#2\">Contrato<\/a>"],[0,3,"<a href=\"Empleado.php.html#2\">Empleado<\/a>"],[0,13,"<a href=\"Mantenimiento.php.html#2\">Mantenimiento<\/a>"],[0,19,"<a href=\"Maquinaria.php.html#2\">Maquinaria<\/a>"],[0,13,"<a href=\"Reserva.php.html#2\">Reserva<\/a>"],[0,2,"<a href=\"Usuario.php.html#4\">Usuario<\/a>"],[0,8,"<a href=\"cliente_model.php.html#4\">ClienteModel<\/a>"],[0,17,"<a href=\"cotizacion_model.php.html#4\">CotizacionModel<\/a>"],[0,6,"<a href=\"lugar_model.php.html#4\">LugarModel<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Cliente.php.html#5\">Cliente::__construct<\/a>"],[0,2,"<a href=\"Cliente.php.html#9\">Cliente::listarClientes<\/a>"],[0,2,"<a href=\"Cliente.php.html#18\">Cliente::agregarCliente<\/a>"],[0,2,"<a href=\"Cliente.php.html#32\">Cliente::editarCliente<\/a>"],[0,3,"<a href=\"Cliente.php.html#46\">Cliente::eliminarCliente<\/a>"],[0,2,"<a href=\"Cliente.php.html#65\">Cliente::buscarCliente<\/a>"],[0,1,"<a href=\"Contrato.php.html#5\">Contrato::__construct<\/a>"],[0,2,"<a href=\"Contrato.php.html#9\">Contrato::listarContrato<\/a>"],[0,2,"<a href=\"Contrato.php.html#18\">Contrato::agregarContrato<\/a>"],[0,2,"<a href=\"Contrato.php.html#32\">Contrato::editarContrato<\/a>"],[0,3,"<a href=\"Contrato.php.html#46\">Contrato::eliminarContrato<\/a>"],[0,2,"<a href=\"Contrato.php.html#65\">Contrato::buscarContrato<\/a>"],[0,1,"<a href=\"Contrato.php.html#80\">Contrato::obtenerContratoPorId<\/a>"],[0,1,"<a href=\"Empleado.php.html#5\">Empleado::__construct<\/a>"],[0,2,"<a href=\"Empleado.php.html#9\">Empleado::listarEmpleados<\/a>"],[0,1,"<a href=\"Mantenimiento.php.html#5\">Mantenimiento::__construct<\/a>"],[0,2,"<a href=\"Mantenimiento.php.html#10\">Mantenimiento::listarMantenimiento<\/a>"],[0,2,"<a href=\"Mantenimiento.php.html#20\">Mantenimiento::agregarMantenimiento<\/a>"],[0,3,"<a href=\"Mantenimiento.php.html#35\">Mantenimiento::eliminarMantenimiento<\/a>"],[0,2,"<a href=\"Mantenimiento.php.html#55\">Mantenimiento::editarMantenimiento<\/a>"],[0,2,"<a href=\"Mantenimiento.php.html#70\">Mantenimiento::buscarMantenimiento<\/a>"],[0,1,"<a href=\"Mantenimiento.php.html#86\">Mantenimiento::obtenerMantenimientoPorId<\/a>"],[0,1,"<a href=\"Maquinaria.php.html#4\">Maquinaria::__construct<\/a>"],[0,2,"<a href=\"Maquinaria.php.html#10\">Maquinaria::listarMaquinarias<\/a>"],[0,3,"<a href=\"Maquinaria.php.html#19\">Maquinaria::mostrarMaquinaria<\/a>"],[0,2,"<a href=\"Maquinaria.php.html#50\">Maquinaria::listarMaquinariasAdmin<\/a>"],[0,2,"<a href=\"Maquinaria.php.html#60\">Maquinaria::agregarMaquinaria<\/a>"],[0,4,"<a href=\"Maquinaria.php.html#83\">Maquinaria::eliminarMaquinaria<\/a>"],[0,2,"<a href=\"Maquinaria.php.html#107\">Maquinaria::editarMaquinaria<\/a>"],[0,2,"<a href=\"Maquinaria.php.html#122\">Maquinaria::buscarMaquinaria<\/a>"],[0,1,"<a href=\"Maquinaria.php.html#137\">Maquinaria::buscarMaquinariaPorId<\/a>"],[0,1,"<a href=\"Reserva.php.html#5\">Reserva::__construct<\/a>"],[0,2,"<a href=\"Reserva.php.html#10\">Reserva::listarReserva<\/a>"],[0,2,"<a href=\"Reserva.php.html#20\">Reserva::agregarReserva<\/a>"],[0,3,"<a href=\"Reserva.php.html#35\">Reserva::eliminarReserva<\/a>"],[0,2,"<a href=\"Reserva.php.html#55\">Reserva::editarReserva<\/a>"],[0,2,"<a href=\"Reserva.php.html#70\">Reserva::buscarReserva<\/a>"],[0,1,"<a href=\"Reserva.php.html#86\">Reserva::obtenerReservaPorId<\/a>"],[0,1,"<a href=\"Usuario.php.html#7\">Usuario::__construct<\/a>"],[0,1,"<a href=\"Usuario.php.html#11\">Usuario::login<\/a>"],[0,2,"<a href=\"cliente_model.php.html#6\">ClienteModel::agregarCliente<\/a>"],[0,4,"<a href=\"cliente_model.php.html#26\">ClienteModel::obtenerUltimoIdCliente<\/a>"],[0,2,"<a href=\"cliente_model.php.html#51\">ClienteModel::obtenerClientePorId<\/a>"],[0,3,"<a href=\"cotizacion_model.php.html#7\">CotizacionModel::actualizarCotizacion<\/a>"],[0,2,"<a href=\"cotizacion_model.php.html#35\">CotizacionModel::obtenerClientePorId<\/a>"],[0,2,"<a href=\"cotizacion_model.php.html#60\">CotizacionModel::obtenerMaquinariaPorId<\/a>"],[0,2,"<a href=\"cotizacion_model.php.html#85\">CotizacionModel::obtenerLugarPorId<\/a>"],[0,2,"<a href=\"cotizacion_model.php.html#110\">CotizacionModel::agregarCotizacion<\/a>"],[0,3,"<a href=\"cotizacion_model.php.html#133\">CotizacionModel::obtenerTodasMaquinarias<\/a>"],[0,3,"<a href=\"cotizacion_model.php.html#154\">CotizacionModel::obtenerTodosLugares<\/a>"],[0,1,"<a href=\"lugar_model.php.html#7\">LugarModel::__construct<\/a>"],[0,5,"<a href=\"lugar_model.php.html#11\">LugarModel::obtenerTodosLugares<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

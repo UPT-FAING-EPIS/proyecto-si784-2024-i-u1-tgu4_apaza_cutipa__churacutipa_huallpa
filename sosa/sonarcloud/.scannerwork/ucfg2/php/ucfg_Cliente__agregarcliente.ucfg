@@ -1,0 +1,98 @@
+
+cliente::agregarcliente;
+1C:\calidad\sosa\sonarcloud\sosa\MODEL\Cliente.php (""1*¾
+1	 (‚«
+¨
+	 (
+$sql"__id*Œ
+
+__unknown_file (pn
+lINSERT INTO tbcliente (nombre, apellido, correo, iddocumento, documento, telefono) VALUES (?, ?, ?, ?, ?, ?)I
+G
+ (
+%1"__id*/
+
+__unknown_file (*	
+cliente"
+dbec
+ (,
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+ (,
+$stmt"__id*"
+
+__unknown_file (
+
+%2ðí
+ (i
+%3*%
+
+__unknown_file (	
+
+$stmt*&
+
+__unknown_file (
+
+sssiss*'
+
+__unknown_file (
+	
+$nombre*)
+
+__unknown_file (
+
+	$apellido*'
+
+__unknown_file (
+	
+$correo*,
+
+__unknown_file (
+
+$iddocumento**
+
+__unknown_file (
+
+
+$documento*)
+
+__unknown_file (
+
+	$telefono2
+bind_paramB@
+ (
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+ (
+%5*%
+
+__unknown_file (	
+
+$stmt2close"
+ (
+true:
+# (*	
+$nombre:
+, (5
+	$apellido:
+7 (>	
+$correo:
+@ (L
+$iddocumento:
+N (X
+
+$documento:
+Z (c
+	$telefonoB	
+clienteH

@@ -1,0 +1,113 @@
+
+maquinaria::agregarmaquinaria>
+4C:\calidad\sosa\sonarcloud\sosa\MODEL\Maquinaria.php. .(%"1*Í
+1	0 0(ƒ¬
+©
+	0 0(‚
+$sql"__id*
+
+__unknown_file (qo
+mINSERT INTO tbmaquinaria (numserie, nombre, marca, modelo, costoh, imagenprincipal) VALUES (?, ?, ?, ?, ?, ?)L
+J
+2 2(
+%1"__id*2
+
+__unknown_file (*
+
+maquinaria"
+dbec
+2 2(,
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+2 2(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2îë
+5 5(g
+%3*%
+
+__unknown_file (	
+
+$stmt*&
+
+__unknown_file (
+
+ssssds*)
+
+__unknown_file (
+
+	$numserie*'
+
+__unknown_file (
+	
+$nombre*&
+
+__unknown_file (
+
+
+$marca*'
+
+__unknown_file (
+	
+$modelo*'
+
+__unknown_file (
+	
+$costoh*0
+
+__unknown_file (
+
+$imagenprincipal2
+bind_paramB@
+8 8(
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+; ;(
+%5*%
+
+__unknown_file (	
+
+$stmt2closeL
+J
+< <(
+%6"__id*2
+
+__unknown_file (*
+
+maquinaria"
+db=;
+< <(
+%7*"
+
+__unknown_file (
+
+%62close"
+= =(
+true:
+.& .(/
+	$numserie:
+.1 .(8	
+$nombre:
+.: .(@
+$marca:
+.B .(I	
+$modelo:
+.K .(R	
+$costoh:
+.T .(d
+$imagenprincipalB
+
+maquinariaH

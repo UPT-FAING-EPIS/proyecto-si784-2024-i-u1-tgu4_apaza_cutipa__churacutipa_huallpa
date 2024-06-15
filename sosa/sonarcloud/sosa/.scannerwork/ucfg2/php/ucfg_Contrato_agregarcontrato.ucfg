@@ -1,0 +1,75 @@
+
+contrato::agregarcontrato<
+2C:\calidad\sosa\sonarcloud\sosa\MODEL\Contrato.php (#"1*á
+1 (Tz
+x
+ (S
+$sql"__id*^
+
+__unknown_file (B@
+>INSERT INTO tbcontrato (idreserva, idcotizacion) VALUES (?, ?)J
+H
+ (
+%1"__id*0
+
+__unknown_file (*
+
+contrato"
+dbec
+ (,
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+ (,
+$stmt"__id*"
+
+__unknown_file (
+
+%2ÅÂ
+ (>
+%3*%
+
+__unknown_file (	
+
+$stmt*"
+
+__unknown_file (
+ii**
+
+__unknown_file (
+
+
+$idreserva*-
+
+__unknown_file (
+
+$idcotizacion2
+bind_paramB@
+ (
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+ (
+%5*%
+
+__unknown_file (	
+
+$stmt2close"
+ (
+true:
+$ (.
+
+$idreserva:
+0 (=
+$idcotizacionB
+
+contratoH

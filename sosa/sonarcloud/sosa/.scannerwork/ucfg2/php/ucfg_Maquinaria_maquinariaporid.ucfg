@@ -1,0 +1,99 @@
+
+!maquinaria::buscarmaquinariaporid>
+4C:\calidad\sosa\sonarcloud\sosa\MODEL\Maquinaria.phpz z()"1*…
+1{ {(Cm
+k
+{ {(B
+$sql"__id*Q
+
+__unknown_file (53
+1SELECT * FROM tbmaquinaria WHERE idmaquinaria = ?L
+J
+| |(
+%1"__id*2
+
+__unknown_file (*
+
+maquinaria"
+dbec
+| |((
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+| |((
+$stmt"__id*"
+
+__unknown_file (
+
+%2éã
+} }(#
+%3*%
+
+__unknown_file (	
+
+$stmt*!
+
+__unknown_file (
+i*#
+
+__unknown_file (
+
+$id2
+bind_paramB@
+~ ~(
+%4*%
+
+__unknown_file (	
+
+$stmt2executeEC
+ (%
+%5*%
+
+__unknown_file (	
+
+$stmt2
+get_resultA
+?
+ (%	
+$result"__id*"
+
+__unknown_file (
+
+%5JH
+
+Ä Ä(,
+%6*'
+
+__unknown_file (
+	
+$result2fetch_assocG
+E
+
+Ä Ä(,
+$maquinaria"__id*"
+
+__unknown_file (
+
+%6B@
+
+Å Å(
+%7*%
+
+__unknown_file (	
+
+$stmt2close"
+
+Ç Ç(
+
+$maquinaria:
+z* z(-
+$idB
+
+maquinariaH

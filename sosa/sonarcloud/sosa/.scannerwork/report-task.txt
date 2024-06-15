@@ -1,0 +1,7 @@
+organization=jesushuallpaepis3
+projectKey=sosa
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.55129
+dashboardUrl=https://sonarcloud.io/dashboard?id=sosa
+ceTaskId=AZAVRgZHqJcBMmSWhUHC
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZAVRgZHqJcBMmSWhUHC

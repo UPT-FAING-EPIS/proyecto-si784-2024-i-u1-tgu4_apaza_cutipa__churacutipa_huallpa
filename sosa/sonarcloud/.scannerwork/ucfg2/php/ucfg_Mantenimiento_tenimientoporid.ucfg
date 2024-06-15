@@ -1,0 +1,93 @@
+
+(mantenimiento::obtenermantenimientoporidA
+7C:\calidad\sosa\sonarcloud\sosa\MODEL\Mantenimiento.phpV V(-"1*İ
+1W W(Is
+q
+W W(H
+$sql"__id*W
+
+__unknown_file (;9
+7SELECT * FROM tbmantenimiento WHERE idmantenimiento = ?O
+M
+X X(
+%1"__id*5
+
+__unknown_file (*
+mantenimiento"
+dbec
+X X((
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+X X((
+$stmt"__id*"
+
+__unknown_file (
+
+%2›˜
+Y Y(0
+%3*%
+
+__unknown_file (	
+
+$stmt*!
+
+__unknown_file (
+i*0
+
+__unknown_file (
+
+$idmantenimiento2
+bind_paramB@
+Z Z(
+%4*%
+
+__unknown_file (	
+
+$stmt2executeEC
+[ [(%
+%5*%
+
+__unknown_file (	
+
+$stmt2
+get_resultA
+?
+[ [(%	
+$result"__id*"
+
+__unknown_file (
+
+%5HF
+\ \(/
+%6*'
+
+__unknown_file (
+	
+$result2fetch_assocH
+F
+\ \(/
+$mantenimiento"__id*"
+
+__unknown_file (
+
+%6@>
+] ](
+%7*%
+
+__unknown_file (	
+
+$stmt2close"
+^ ^(
+
+$mantenimiento:
+V. V(>
+$idmantenimientoB
+mantenimientoH
