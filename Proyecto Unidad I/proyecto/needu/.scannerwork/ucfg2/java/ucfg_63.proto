@@ -1,401 +1,0 @@
-
-Üorg.apache.jsp.web.Registro.registro_jsp#_jspService(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Vm
-c/C:/calidad/gitneedu/NeeduQube/needu/.scannerwork/jsp/org/apache/jsp/web/Registro/registro_jsp.javaO O("36*†
-35S, S(3«ƒ
-S, S(?
-%3java.lang.String"Cjavax.servlet.http.HttpServletRequest#getMethod()Ljava/lang/String;*N
-
-__unknown_file (2
-0
-request%javax.servlet.http.HttpServletRequest2getMethod()j
-h
-S S(@ 
-_jspx_methodjava.lang.String"__id*4
-
-__unknown_file (
-
-%3java.lang.StringœÃ
-T
- T((
-%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*'
-
-__unknown_file (	
-OPTIONS*>
-
-__unknown_file ("
- 
-_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
-33
-34*Ò
-24o o(-⁄◊
-p p((%
-%17javax.servlet.http.HttpSession"Jjavax.servlet.jsp.PageContext#getSession()Ljavax/servlet/http/HttpSession;*J
-
-__unknown_file (.
-,
-pageContextjavax.servlet.jsp.PageContext2getSession()*
-23*»
-36R	 R(Z
-X
-R	 R(+"
-%0javax.servlet.DispatcherType"__id*"
-
-__unknown_file (
-""Ê„
-R3 R(N"
-%1javax.servlet.DispatcherType"Njavax.servlet.ServletRequest#getDispatcherType()Ljavax/servlet/DispatcherType;*N
-
-__unknown_file (2
-0
-request%javax.servlet.http.HttpServletRequest2getDispatcherType()ËÂ
-R	 R(O
-%2boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*@
-
-__unknown_file ($
-"
-%0javax.servlet.DispatcherType*@
-
-__unknown_file ($
-"
-%1javax.servlet.DispatcherType2equals(Ljava/lang/Object;)*
-35
-29*˜
-25n n(3‡›
-o o(-"
-%16javax.servlet.ServletConfig"Mjavax.servlet.jsp.PageContext#getServletConfig()Ljavax/servlet/ServletConfig;*J
-
-__unknown_file (.
-,
-pageContextjavax.servlet.jsp.PageContext2getServletConfig()*
-24*ö
-26k l( Ö
-Ç
-k l( ,
-pageContextjavax.servlet.jsp.PageContext"__id*B
-
-__unknown_file (&
-$
-%14javax.servlet.jsp.PageContextî
-ë
-m m(&3
-_jspx_page_contextjavax.servlet.jsp.PageContext"__id*J
-
-__unknown_file (.
-,
-pageContextjavax.servlet.jsp.PageContext‰·
-n n(3#
-%15javax.servlet.ServletContext"Ojavax.servlet.jsp.PageContext#getServletContext()Ljavax/servlet/ServletContext;*J
-
-__unknown_file (.
-,
-pageContextjavax.servlet.jsp.PageContext2getServletContext()*
-25*î
-27k k( [
-Y
-k k( #
-%13javax.servlet.jsp.JspFactory"__id*"
-
-__unknown_file (
-""†ù
-k l( $
-%14javax.servlet.jsp.PageContext"µjavax.servlet.jsp.JspFactory#getPageContext(Ljavax/servlet/Servlet;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/String;ZIZ)Ljavax/servlet/jsp/PageContext;*A
-
-__unknown_file (%
-#
-%13javax.servlet.jsp.JspFactory*H
-
-__unknown_file (,*
-(org.apache.jsp.web.Registro.registro_jsp*N
-
-__unknown_file (2
-0
-request%javax.servlet.http.HttpServletRequest*P
-
-__unknown_file (4
-2
-response&javax.servlet.http.HttpServletResponse*"
-
-__unknown_file (
-""* 
-
-__unknown_file (2*!
-
-__unknown_file (2Ä@* 
-
-__unknown_file (22ygetPageContext(Ljavax/servlet/Servlet;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/String;ZIZ)*
-26*ª
-16z z(	•¢
-	z z(Ó
-%25void")java.io.Writer#write(Ljava/lang/String;)V*@
-
-__unknown_file ($
-"
-outjavax.servlet.jsp.JspWriter*ˇ
-
-__unknown_file (‚ﬂ
-‹            if (valor === 'voluntario') {\r\n                camposVoluntario.style.display = 'block';\r\n                setTimeout(function() { camposVoluntario.style.opacity = '1'; }, 10);\r\n            } else if (valor === 'organizacion') {\r\n                camposOrganizacion.style.display = 'block';\r\n                setTimeout(function() { camposOrganizacion.style.opacity = '1'; }, 10);\r\n            }\r\n        }\r\n        </script>\r\n    </body>\r\n</html>2write(Ljava/lang/String;)*
-1*£
-28j j(åâ
-j j(8
-%12void"Ajavax.servlet.ServletResponse#setContentType(Ljava/lang/String;)V*P
-
-__unknown_file (4
-2
-response&javax.servlet.http.HttpServletResponse*7
-
-__unknown_file (
-text/html;charset=UTF-82"setContentType(Ljava/lang/String;)*
-27*Œ
-
-17y y(	∑
-¥
-
-	y y(Ä	
-%24void")java.io.Writer#write(Ljava/lang/String;)V*@
-
-__unknown_file ($
-"
-outjavax.servlet.jsp.JspWriter*ë	
-
-__unknown_file (ÙÒ
-Ó                        Correo<input type=\"text\" name=\"txtcororg\" ><br>\r\n                    </div>\r\n                    <h5>Ubicacion</h5>\r\n                    Pais<input type=\"text\" name=\"txtpai\" >\r\n                    Ciudad<input type=\"text\" name=\"txtciu\" >\r\n                    Direccion<input type=\"text\" name=\"txtdir\" >\r\n                    <br>\r\n                    <input type=\"submit\" value=\"Guardar Cambios\">\r\n                </form>\r\n        </div>\r\n    </div>\r\n\r\n        \r\n        \r\n        \r\n        \r\n        <script>\r\n        function mostrarCampos(valor) {\r\n            var camposVoluntario = document.getElementById('camposVoluntario');\r\n            var camposOrganizacion = document.getElementById('camposOrganizacion');\r\n\r\n            // Inicialmente ocultar ambos campos\r\n            camposVoluntario.style.display = 'none';\r\n            camposOrganizacion.style.display = 'none';\r\n            camposVoluntario.style.opacity = '0';\r\n            camposOrganizacion.style.opacity = '0';\r\n\r\n            // Mostrar el campo correspondiente\r\n2write(Ljava/lang/String;)*
-16*•
-29_ _(4d
-b
-_ _(4,
-pageContextjavax.servlet.jsp.PageContext"__id*"
-
-__unknown_file (
-""Z
-X
-c c(+"
-outjavax.servlet.jsp.JspWriter"__id*"
-
-__unknown_file (
-""`
-^
-e e(1(
-	_jspx_outjavax.servlet.jsp.JspWriter"__id*"
-
-__unknown_file (
-""k
-i
-f f(<3
-_jspx_page_contextjavax.servlet.jsp.PageContext"__id*"
-
-__unknown_file (
-""*
-28*Ë
-
-18x x(	—
-Œ
-
-	x x(ò	
-%23void")java.io.Writer#write(Ljava/lang/String;)V*@
-
-__unknown_file ($
-"
-outjavax.servlet.jsp.JspWriter*´	
-
-__unknown_file (é	ã	
-à	                        <option value=\"organizacion\">Organizaci√≥n</option>\r\n                    </select>\r\n\r\n                    \r\n                    <div id=\"camposVoluntario\" style=\"display: none;\">\r\n                        Nombres<input type=\"text\" name=\"txtnomvol\"><br>\r\n                        Apellidos<input type=\"text\" name=\"txtapevol\"><br>\r\n                        <label for=\"genero\">G√©nero:</label>\r\n                        <select name=\"selectgenvol\" id=\"genero\">\r\n                            <option value=\"Masculino\">Masculino</option>\r\n                            <option value=\"Femenino\">Femenino</option>\r\n                        </select><br>\r\n                        Edad<input type=\"text\" name=\"txtedavol\" ><br>\r\n                        Correo<input type=\"text\" name=\"txtcorvol\" ><br>\r\n                    </div>\r\n                    <div id=\"camposOrganizacion\" style=\"display: none;\">\r\n                        Nombre Organizacion<input type=\"text\" name=\"txtnomorg\" ><br>\r\n                        Tipo de Organizacion<input type=\"text\" name=\"txttiporg\" >\r\n2write(Ljava/lang/String;)*
-17*Ä
-19w w(	È
-Ê
-
-	w w(≤	
-%22void")java.io.Writer#write(Ljava/lang/String;)V*@
-
-__unknown_file ($
-"
-outjavax.servlet.jsp.JspWriter*√	
-
-__unknown_file (¶	£	
-†	                from {\r\n                    opacity: 0;\r\n                    transform: translateY(-10px);\r\n                }\r\n                to {\r\n                    opacity: 1;\r\n                    transform: translateY(0);\r\n                }\r\n            }\r\n\r\n            \r\n            \r\n        </style>\r\n              <link rel=\"icon\" type=\"image/jpeg\" href=\"imagenes\\logo.jpeg\"> \r\n    </head>\r\n    <body>      \r\n    <div class=\"container\">\r\n        <div class=\"box\">\r\n                <h3>Registrarse</h3>\r\n                <form method=\"post\" action=\"ControladorRegistro?accion=registrar\">\r\n                    Ingrese usuario<input type=\"text\" name=\"txtusu\" required>\r\n                    Ingrese clave<input type=\"text\" name=\"txtcla\" required>\r\n                    <label for=\"rol\">Rol:</label>\r\n                    \r\n                    <select name=\"selectrol\" id=\"rol\" onchange=\"mostrarCampos(this.value)\" required>\r\n                        <option value=\"\" disabled selected hidden>Seleccione un rol</option>\r\n                        <option value=\"voluntario\">Voluntario</option>\r\n2write(Ljava/lang/String;)*
-18*(
-0 "!
-
-å å(
-implicit return*∞
-1
-ä ä(]
-[
-
-ä ä(#
-%36javax.servlet.jsp.JspFactory"__id*"
-
-__unknown_file (
-""∫∑
-
-ä ä(9
-%37void"Qjavax.servlet.jsp.JspFactory#releasePageContext(Ljavax/servlet/jsp/PageContext;)V*A
-
-__unknown_file (%
-#
-%36javax.servlet.jsp.JspFactory*Q
-
-__unknown_file (5
-3
-_jspx_page_contextjavax.servlet.jsp.PageContext23releasePageContext(Ljavax/servlet/jsp/PageContext;)*
-0*¢
-30Y Y(÷”
-Y Y(>
-
-%9void"Wjavax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V*P
-
-__unknown_file (4
-2
-response&javax.servlet.http.HttpServletResponse*%
-
-__unknown_file (	
-Allow*8
-
-__unknown_file (
-GET, HEAD, POST, OPTIONS2/setHeader(Ljava/lang/String;Ljava/lang/String;)B
-@
-Z Z(D
-
-%10int"__id*"
-
-__unknown_file (
-""‡›
-	Z Z(à
-%11void"Fjavax.servlet.http.HttpServletResponse#sendError(ILjava/lang/String;)V*P
-
-__unknown_file (4
-2
-response&javax.servlet.http.HttpServletResponse*(
-
-__unknown_file (
-
-
-%10int*_
-
-__unknown_file (CA
-?JSPs only permit GET, POST or HEAD. Jasper also permits OPTIONS2sendError(ILjava/lang/String;)"
-[ [(
-""*Á
-31XJ X(PÃ…
-XJ X(e
-%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*$
-
-__unknown_file (
-HEAD*>
-
-__unknown_file ("
- 
-_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
-29
-30*æ
-
-20v v(	ß
-§
-
-	v v(
-%21void")java.io.Writer#write(Ljava/lang/String;)V*@
-
-__unknown_file ($
-"
-outjavax.servlet.jsp.JspWriter*Å	
-
-__unknown_file (‰·
-ﬁ                border-radius: 20px;\r\n                font-weight: bold;\r\n                width: 30%;\r\n                margin-left: auto;\r\n                margin-right: auto;\r\n                display: block;\r\n                transition: background-color 0.3s ease;\r\n            }\r\n            \r\n            input[type=submit]:hover {\r\n                background-color: #65999a; /* Nuevo color de fondo para el estado hover */\r\n            }\r\n            \r\n            \r\n            #rol {\r\n                width: 25%;\r\n            }\r\n            \r\n            #genero{\r\n                width: 20%;\r\n            }\r\n            \r\n            \r\n            \r\n            #camposVoluntario, #camposOrganizacion {\r\n                opacity: 0;\r\n                transition: opacity 0.5s ease;\r\n                display: none;\r\n            }\r\n\r\n            #camposVoluntario.visible, #camposOrganizacion.visible {\r\n                opacity: 1;\r\n                display: block;\r\n            }\r\n            \r\n            \r\n            @keyframes fadeIn {\r\n2write(Ljava/lang/String;)*
-19*Á
-32X* X(0Ã…
-X* X(E
-%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*$
-
-__unknown_file (
-POST*>
-
-__unknown_file ("
- 
-_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
-29
-31*≠
-
-21u u(	ñ
-ì
-
-	u u(ﬂ
-%20void")java.io.Writer#write(Ljava/lang/String;)V*@
-
-__unknown_file ($
-"
-outjavax.servlet.jsp.JspWriter*
-
-__unknown_file (”–
-Õ                overflow: auto;\r\n                animation: fadeIn 0.5s ease;\r\n            }\r\n\r\n\r\n            h3 {\r\n                color: #000;\r\n                text-align: center;\r\n            }\r\n            \r\n            h5 {\r\n                font-weight: bold;\r\n                font-size: 15px;\r\n                margin-top: 15px;\r\n                margin-bottom: 5px;\r\n            }\r\n\r\n            form {\r\n                display: flex;\r\n                flex-direction: column;\r\n                gap: 10px; /* Espaciado entre los campos */\r\n            }\r\n\r\n            input[type=text], input[type=password], select {\r\n                width: 90%;\r\n                padding: 10px;\r\n                margin-bottom: 10px;\r\n                border: 1px solid #ccc;\r\n                border-radius: 8px;\r\n            }\r\n\r\n            input[type=submit] {\r\n                background-color: #7eb1bb;\r\n                color: white;\r\n                padding: 14px 20px;\r\n                border: none;\r\n                cursor: pointer;\r\n2write(Ljava/lang/String;)*
-20*Ê
-33X X(À»
-X X(%
-%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*#
-
-__unknown_file (
-GET*>
-
-__unknown_file ("
- 
-_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
-29
-32*Ô
-22q q( x
-v
-q q( "
-outjavax.servlet.jsp.JspWriter"__id*@
-
-__unknown_file ($
-"
-%18javax.servlet.jsp.JspWriter~
-|
-r r((
-	_jspx_outjavax.servlet.jsp.JspWriter"__id*@
-
-__unknown_file ($
-"
-outjavax.servlet.jsp.JspWriterﬁ
-€
-
-G
->/C:/calidad/gitneedu/NeeduQube/needu/web/Registro/registro.jsp ø(
-%19void")java.io.Writer#write(Ljava/lang/String;)V*@
-
-__unknown_file ($
-"
-outjavax.servlet.jsp.JspWriter*˙
-
-__unknown_file (›⁄
-◊\r\n<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n        <title>Registro</title>\r\n        <style>\r\n            body, html {\r\n                height: 100%;\r\n                margin: 0;\r\n                font-family: Arial, sans-serif;\r\n                display: block;\r\n                justify-content: center;\r\n                align-items: center;\r\n                background-color: #e9e9e9; /* Puedes cambiar el color de fondo si lo deseas */\r\n            }\r\n\r\n            .container {\r\n                display: flex;\r\n                justify-content: center;\r\n                align-items: center;\r\n            }\r\n\r\n            .box {\r\n                background-color: #fff;\r\n                border: 1px solid #ddd;\r\n                padding: 20px;\r\n                display: flex;\r\n                flex-direction: column;\r\n                gap: 20px;\r\n                box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);\r\n                border-radius: 15px;\r\n                width: 30%;\r\n2write(Ljava/lang/String;)*
-21*˚
-34U U(÷”
-U U(>
-
-%5void"Wjavax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V*P
-
-__unknown_file (4
-2
-response&javax.servlet.http.HttpServletResponse*%
-
-__unknown_file (	
-Allow*8
-
-__unknown_file (
-GET, HEAD, POST, OPTIONS2/setHeader(Ljava/lang/String;Ljava/lang/String;)"
-V V(
-""*‚
-23p p((À»
-q q( "
-%18javax.servlet.jsp.JspWriter"Bjavax.servlet.jsp.JspContext#getOut()Ljavax/servlet/jsp/JspWriter;*J
-
-__unknown_file (.
-,
-pageContextjavax.servlet.jsp.PageContext2getOut()*
-22:*
-
-__unknown_file (
-%jsp_context:<
-O O(N0
-request%javax.servlet.http.HttpServletRequest:?
-	OO O(Ñ2
-response&javax.servlet.http.HttpServletResponseB,*
-(org.apache.jsp.web.Registro.registro_jspH`

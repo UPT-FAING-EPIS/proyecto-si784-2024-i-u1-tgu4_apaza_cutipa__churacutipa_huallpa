@@ -1,6 +1,0 @@
-# Archivo de configuración de la base de datos
-
-database:
-  url: "jdbc:mysql://161.132.47.59:3306/db_needu"
-  username: "erick"
-  password: "1234qwer"

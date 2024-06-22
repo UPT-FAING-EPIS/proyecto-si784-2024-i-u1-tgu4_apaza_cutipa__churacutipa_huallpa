@@ -1,104 +1,0 @@
-
-maquinaria::editarmaquinaria>
-4C:\calidad\sosa\sonarcloud\sosa\MODEL\Maquinaria.phpk k($"1*ú
-1	m m(•À
-½
-	m m(”
-$sql"__id*¡
-
-__unknown_file („
-UPDATE tbmaquinaria SET numserie = ?, nombre = ?, marca = ?, modelo = ?, costoh = ?, imagenprincipal = ? WHERE idmaquinaria = ?L
-J
-n n(
-%1"__id*2
-
-__unknown_file (*
-
-maquinaria"
-dbec
-n n(,
-%2*"
-
-__unknown_file (
-
-%1*$
-
-__unknown_file (
-
-$sql2prepare?
-=
-n n(,
-$stmt"__id*"
-
-__unknown_file (
-
-%2”‘
-o o(m
-%3*%
-
-__unknown_file (	
-
-$stmt*'
-
-__unknown_file (	
-ssssdsi*)
-
-__unknown_file (
-
-	$numserie*'
-
-__unknown_file (
-	
-$nombre*&
-
-__unknown_file (
-
-
-$marca*'
-
-__unknown_file (
-	
-$modelo*'
-
-__unknown_file (
-	
-$costoh*0
-
-__unknown_file (
-
-$imagenprincipal*#
-
-__unknown_file (
-
-$id2
-bind_paramB@
-p p(
-%4*%
-
-__unknown_file (	
-
-$stmt2execute@>
-q q(
-%5*%
-
-__unknown_file (	
-
-$stmt2close"
-r r(
-true:
-k% k((
-$id:
-k* k(3
-	$numserie:
-k5 k(<	
-$nombre:
-k> k(D
-$marca:
-kF k(M	
-$modelo:
-kO k(V	
-$costoh:
-kX k(h
-$imagenprincipalB
-
-maquinariaH
