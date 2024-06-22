@@ -1,0 +1,96 @@
+
+"cotizacionmodel::agregarcotizacionD
+:C:\calidad\sosa\sonarcloud\sosa\MODEL\cotizacion_model.phpn n(%"1*Ü
+1p p(-P
+N
+p p(,
+%1"conectar::conexion*(
+
+__unknown_file ("
+
+conectarC
+A
+p p(,
+	$conexion"__id*"
+
+__unknown_file (
+
+%1k
+i
+r r(D
+$sql"__id*O
+
+__unknown_file (31
+/INSERT INTO tbcotizacion (idcliente) VALUES (?)lj
+t t(,
+%2*)
+
+__unknown_file (
+
+	$conexion*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+t t(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2•’
+v v(.
+%3*%
+
+__unknown_file (	
+
+$stmt*!
+
+__unknown_file (
+i**
+
+__unknown_file (
+
+
+$idcliente2
+bind_paramB@
+x x(
+%4*%
+
+__unknown_file (	
+
+$stmt2executeN
+L
+z z(,
+%5"__id*4
+
+__unknown_file (*
+
+$stmt"
+	insert_idG
+E
+z z(,
+$idcotizacion"__id*"
+
+__unknown_file (
+
+%5@>
+| |(
+%6*%
+
+__unknown_file (	
+
+$stmt2closeDB
+} }(
+%7*)
+
+__unknown_file (
+
+	$conexion2close"
+~ ~(!
+
+$idcotizacion:
+n& n(7
+
+$idclienteB
+cotizacionmodelH

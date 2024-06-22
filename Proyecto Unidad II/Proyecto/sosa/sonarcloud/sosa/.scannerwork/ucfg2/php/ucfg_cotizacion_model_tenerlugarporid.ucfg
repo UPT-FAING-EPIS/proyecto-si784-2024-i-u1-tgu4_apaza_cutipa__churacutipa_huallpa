@@ -1,0 +1,111 @@
+
+"cotizacionmodel::obtenerlugarporidD
+:C:\calidad\sosa\sonarcloud\sosa\MODEL\cotizacion_model.phpU U(%"1*Î
+1W W(-P
+N
+W W(,
+%1"conectar::conexion*(
+
+__unknown_file ("
+
+conectarC
+A
+W W(,
+	$conexion"__id*"
+
+__unknown_file (
+
+%1c
+a
+Y Y(<
+$sql"__id*G
+
+__unknown_file (+)
+'SELECT * FROM tblugar WHERE idlugar = ?lj
+[ [(,
+%2*)
+
+__unknown_file (
+
+	$conexion*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+[ [(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2“
+] ](,
+%3*%
+
+__unknown_file (	
+
+$stmt*!
+
+__unknown_file (
+i*(
+
+__unknown_file (
+
+
+$idlugar2
+bind_paramB@
+_ _(
+%4*%
+
+__unknown_file (	
+
+$stmt2executeEC
+a a(,
+%5*%
+
+__unknown_file (	
+
+$stmt2
+get_resultD
+B
+a a(,
+
+$resultado"__id*"
+
+__unknown_file (
+
+%5KI
+c c(.
+%6**
+
+__unknown_file (
+
+
+$resultado2fetch_assoc@
+>
+c c(.
+$lugar"__id*"
+
+__unknown_file (
+
+%6@>
+e e(
+%7*%
+
+__unknown_file (	
+
+$stmt2closeDB
+f f(
+%8*)
+
+__unknown_file (
+
+	$conexion2close"
+g g(
+
+
+$lugar:
+U& U(.
+
+$idlugarB
+cotizacionmodelH

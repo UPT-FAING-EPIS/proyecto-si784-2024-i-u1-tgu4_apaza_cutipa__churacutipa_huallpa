@@ -1,0 +1,108 @@
+
+'cotizacionmodel::obtenermaquinariaporidD
+:C:\calidad\sosa\sonarcloud\sosa\MODEL\cotizacion_model.php< <(*"1*ç
+1> >(-P
+N
+> >(,
+%1"conectar::conexion*(
+
+__unknown_file ("
+
+conectarC
+A
+> >(,
+	$conexion"__id*"
+
+__unknown_file (
+
+%1m
+k
+@ @(F
+$sql"__id*Q
+
+__unknown_file (53
+1SELECT * FROM tbmaquinaria WHERE idmaquinaria = ?lj
+B B(,
+%2*)
+
+__unknown_file (
+
+	$conexion*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+B B(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2˜•
+D D(1
+%3*%
+
+__unknown_file (	
+
+$stmt*!
+
+__unknown_file (
+i*-
+
+__unknown_file (
+
+$idmaquinaria2
+bind_paramB@
+F F(
+%4*%
+
+__unknown_file (	
+
+$stmt2executeEC
+H H(,
+%5*%
+
+__unknown_file (	
+
+$stmt2
+get_resultD
+B
+H H(,
+
+$resultado"__id*"
+
+__unknown_file (
+
+%5KI
+J J(3
+%6**
+
+__unknown_file (
+
+
+$resultado2fetch_assocE
+C
+J J(3
+$maquinaria"__id*"
+
+__unknown_file (
+
+%6@>
+L L(
+%7*%
+
+__unknown_file (	
+
+$stmt2closeDB
+M M(
+%8*)
+
+__unknown_file (
+
+	$conexion2close"
+N N(
+
+$maquinaria:
+<+ <(8
+$idmaquinariaB
+cotizacionmodelH

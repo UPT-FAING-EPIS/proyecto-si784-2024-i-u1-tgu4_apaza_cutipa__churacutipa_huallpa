@@ -1,0 +1,110 @@
+
+reserva::agregarreserva;
+1C:\calidad\sosa\sonarcloud\sosa\MODEL\Reserva.php (""1*Ì
+1	 (¨Ô
+Ñ
+	 (§
+$sql"__id*µ
+
+__unknown_file (˜•
+’INSERT INTO tbreserva (idcliente, idmaquinaria, idcotize, idempleado, fechareserva, fechainicio, fechafin, estado) VALUES (?, ?, ?, ?, ?, ?, ?, ?)I
+G
+ (
+%1"__id*/
+
+__unknown_file (*	
+reserva"
+dbec
+ (,
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+ (,
+$stmt"__id*"
+
+__unknown_file (
+
+%2ÕÒ
+	 (
+%3*%
+
+__unknown_file (	
+
+$stmt*(
+
+__unknown_file (
+
+iiiisssi**
+
+__unknown_file (
+
+
+$idcliente*-
+
+__unknown_file (
+
+$idmaquinaria*)
+
+__unknown_file (
+
+	$idcotize*+
+
+__unknown_file (
+
+$idempleado*-
+
+__unknown_file (
+
+$fechareserva*,
+
+__unknown_file (
+
+$fechainicio*)
+
+__unknown_file (
+
+	$fechafin*'
+
+__unknown_file (
+	
+$estado2
+bind_paramB@
+ (
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+ (
+%5*%
+
+__unknown_file (	
+
+$stmt2close"
+ (
+true:
+# (-
+
+$idcliente:
+/ (<
+$idmaquinaria:
+> (G
+	$idcotize:
+I (T
+$idempleado:
+V (c
+$fechareserva:
+e (q
+$fechainicio:
+s (|
+	$fechafin:
+	~ (…	
+$estadoB	
+reservaH

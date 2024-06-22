@@ -1,0 +1,118 @@
+
+clientemodel::agregarclienteA
+7C:\calidad\sosa\sonarcloud\sosa\MODEL\cliente_model.php (""1*‹	
+1 (-P
+N
+ (,
+%1"conectar::conexion*(
+
+__unknown_file ("
+
+conectarC
+A
+ (,
+	$conexion"__id*"
+
+__unknown_file (
+
+%1¶
+³
+	
+ 
+(Œ
+$sql"__id*—
+
+__unknown_file ({y
+wINSERT INTO tbcliente (nombre, apellido, correo, iddocumento, documento, telefono, valido) VALUES (?, ?, ?, ?, ?, ?, ?)lj
+ (,
+%2*)
+
+__unknown_file (
+
+	$conexion*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+ (,
+$stmt"__id*"
+
+__unknown_file (
+
+%2š—
+ (s
+%3*%
+
+__unknown_file (	
+
+$stmt*'
+
+__unknown_file (	
+ssssiss*'
+
+__unknown_file (
+	
+$nombre*)
+
+__unknown_file (
+
+	$apellido*'
+
+__unknown_file (
+	
+$correo*,
+
+__unknown_file (
+
+$iddocumento**
+
+__unknown_file (
+
+
+$documento*)
+
+__unknown_file (
+
+	$telefono*'
+
+__unknown_file (
+	
+$valido2
+bind_paramB@
+ (
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+ (
+%5*%
+
+__unknown_file (	
+
+$stmt2closeDB
+ (
+%6*)
+
+__unknown_file (
+
+	$conexion2close"
+ (
+true:
+# (*	
+$nombre:
+, (5
+	$apellido:
+7 (>	
+$correo:
+@ (L
+$iddocumento:
+N (X
+
+$documento:
+Z (c
+	$telefono:
+e (l	
+$validoB
+clientemodelH

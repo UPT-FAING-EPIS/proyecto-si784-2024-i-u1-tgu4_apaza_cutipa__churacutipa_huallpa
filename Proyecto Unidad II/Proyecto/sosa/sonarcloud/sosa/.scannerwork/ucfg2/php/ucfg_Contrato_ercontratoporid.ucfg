@@ -1,0 +1,83 @@
+
+contrato::obtenercontratoporid<
+2C:\calidad\sosa\sonarcloud\sosa\MODEL\Contrato.phpP P(("1*ˆ	
+1Q X((
+þ
+Q X('
+$sql"__id*ã
+
+__unknown_file (ÆÃ
+ÀSELECT c.*, r.*, cot.*, cl.*, m.*, l.*
+                FROM tbcontrato c
+                JOIN tbreserva r ON c.idreserva = r.idreserva
+                JOIN tbcotizacion cot ON c.idcotizacion = cot.idcotizacion
+                JOIN tbcliente cl ON r.idcliente = cl.idcliente
+                JOIN tbmaquinaria m ON r.idmaquinaria = m.idmaquinaria
+                JOIN tblugar l ON cot.idlugar = l.idlugar
+                WHERE c.idcontrato = ?P
+N
+Y Y(
+%1"__id*6
+
+__unknown_file (*
+
+contrato"
+
+conexionec
+Y Y(.
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+Y Y(.
+$stmt"__id*"
+
+__unknown_file (
+
+%2–“
+Z Z(+
+%3*%
+
+__unknown_file (	
+
+$stmt*!
+
+__unknown_file (
+i*+
+
+__unknown_file (
+
+$idcontrato2
+bind_paramB@
+[ [(
+%4*%
+
+__unknown_file (	
+
+$stmt2executeEC
+\ \("
+%5*%
+
+__unknown_file (	
+
+$stmt2
+get_resultCA
+\ \(1
+%6*"
+
+__unknown_file (
+
+%52fetch_assoc"
+\ \(2
+
+%6:
+P) P(4
+$idcontratoB
+
+contratoH

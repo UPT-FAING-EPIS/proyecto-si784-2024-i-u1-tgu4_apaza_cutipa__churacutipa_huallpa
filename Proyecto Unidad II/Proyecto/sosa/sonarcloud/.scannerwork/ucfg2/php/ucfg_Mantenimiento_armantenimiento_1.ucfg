@@ -1,0 +1,102 @@
+
+#mantenimiento::agregarmantenimientoA
+7C:\calidad\sosa\sonarcloud\sosa\MODEL\Mantenimiento.php (("1*…
+1	 (•À
+½
+	 (”
+$sql"__id*¡
+
+__unknown_file („
+INSERT INTO tbmantenimiento (idmaquinaria, fecha, descripcion, costopro, idempleado, estado, tipo) VALUES (?, ?, ?, ?, ?, ?, ?)O
+M
+ (
+%1"__id*5
+
+__unknown_file (*
+mantenimiento"
+dbec
+ (,
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+ (,
+$stmt"__id*"
+
+__unknown_file (
+
+%2œ™
+ (u
+%3*%
+
+__unknown_file (	
+
+$stmt*'
+
+__unknown_file (	
+issdsis*-
+
+__unknown_file (
+
+$idmaquinaria*&
+
+__unknown_file (
+
+
+$fecha*,
+
+__unknown_file (
+
+$descripcion*)
+
+__unknown_file (
+
+	$costopro*+
+
+__unknown_file (
+
+$idempleado*'
+
+__unknown_file (
+	
+$estado*%
+
+__unknown_file (	
+
+$tipo2
+bind_paramB@
+ (
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+ (
+%5*%
+
+__unknown_file (	
+
+$stmt2close"
+ (
+true:
+) (6
+$idmaquinaria:
+8 (>
+$fecha:
+@ (L
+$descripcion:
+N (W
+	$costopro:
+Y (d
+$idempleado:
+f (m	
+$estado:
+o (t
+$tipoB
+mantenimientoH

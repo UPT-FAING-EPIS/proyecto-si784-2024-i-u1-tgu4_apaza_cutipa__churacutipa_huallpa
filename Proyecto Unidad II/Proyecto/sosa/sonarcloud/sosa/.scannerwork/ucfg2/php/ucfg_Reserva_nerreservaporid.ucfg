@@ -1,0 +1,97 @@
+
+reserva::obtenerreservaporid;
+1C:\calidad\sosa\sonarcloud\sosa\MODEL\Reserva.phpV V('"1*¹
+1W W(=g
+e
+W W(<
+$sql"__id*K
+
+__unknown_file (/-
++SELECT * FROM tbreserva WHERE idreserva = ?I
+G
+X X(
+%1"__id*/
+
+__unknown_file (*	
+reserva"
+dbec
+X X((
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+X X((
+$stmt"__id*"
+
+__unknown_file (
+
+%2•’
+Y Y(*
+%3*%
+
+__unknown_file (	
+
+$stmt*!
+
+__unknown_file (
+i**
+
+__unknown_file (
+
+
+$idreserva2
+bind_paramB@
+Z Z(
+%4*%
+
+__unknown_file (	
+
+$stmt2executeEC
+[ [(%
+%5*%
+
+__unknown_file (	
+
+$stmt2
+get_resultA
+?
+[ [(%	
+$result"__id*"
+
+__unknown_file (
+
+%5HF
+\ \()
+%6*'
+
+__unknown_file (
+	
+$result2fetch_assocB
+@
+\ \()
+
+$reserva"__id*"
+
+__unknown_file (
+
+%6@>
+] ](
+%7*%
+
+__unknown_file (	
+
+$stmt2close"
+^ ^(
+
+
+$reserva:
+V( V(2
+
+$idreservaB	
+reservaH

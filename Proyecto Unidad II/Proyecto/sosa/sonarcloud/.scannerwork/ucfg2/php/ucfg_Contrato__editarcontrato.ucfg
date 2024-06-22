@@ -1,0 +1,81 @@
+
+contrato::editarcontrato<
+2C:\calidad\sosa\sonarcloud\sosa\MODEL\Contrato.php   (""1*
+1" "(`‡
+„
+" "(_
+$sql"__id*j
+
+__unknown_file (NL
+JUPDATE tbcontrato SET idreserva = ?, idcotizacion = ? WHERE idcontrato = ?J
+H
+# #(
+%1"__id*0
+
+__unknown_file (*
+
+contrato"
+dbec
+# #(,
+%2*"
+
+__unknown_file (
+
+%1*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+# #(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2óð
+$ $(L
+%3*%
+
+__unknown_file (	
+
+$stmt*#
+
+__unknown_file (
+iii**
+
+__unknown_file (
+
+
+$idreserva*-
+
+__unknown_file (
+
+$idcotizacion*+
+
+__unknown_file (
+
+$idcontrato2
+bind_paramB@
+% %(
+%4*%
+
+__unknown_file (	
+
+$stmt2execute@>
+& &(
+%5*%
+
+__unknown_file (	
+
+$stmt2close"
+' '(
+true:
+ #  (.
+$idcontrato:
+ 0  (:
+
+$idreserva:
+ <  (I
+$idcotizacionB
+
+contratoH

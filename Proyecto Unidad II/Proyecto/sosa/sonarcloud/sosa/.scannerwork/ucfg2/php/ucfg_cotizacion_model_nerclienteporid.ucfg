@@ -1,0 +1,112 @@
+
+$cotizacionmodel::obtenerclienteporidD
+:C:\calidad\sosa\sonarcloud\sosa\MODEL\cotizacion_model.php# #('"1*Ø
+1% %(-P
+N
+% %(,
+%1"conectar::conexion*(
+
+__unknown_file ("
+
+conectarC
+A
+% %(,
+	$conexion"__id*"
+
+__unknown_file (
+
+%1g
+e
+' '(@
+$sql"__id*K
+
+__unknown_file (/-
++SELECT * FROM tbcliente WHERE idcliente = ?lj
+) )(,
+%2*)
+
+__unknown_file (
+
+	$conexion*$
+
+__unknown_file (
+
+$sql2prepare?
+=
+) )(,
+$stmt"__id*"
+
+__unknown_file (
+
+%2•’
++ +(.
+%3*%
+
+__unknown_file (	
+
+$stmt*!
+
+__unknown_file (
+i**
+
+__unknown_file (
+
+
+$idcliente2
+bind_paramB@
+- -(
+%4*%
+
+__unknown_file (	
+
+$stmt2executeEC
+/ /(,
+%5*%
+
+__unknown_file (	
+
+$stmt2
+get_resultD
+B
+/ /(,
+
+$resultado"__id*"
+
+__unknown_file (
+
+%5KI
+1 1(0
+%6**
+
+__unknown_file (
+
+
+$resultado2fetch_assocB
+@
+1 1(0
+
+$cliente"__id*"
+
+__unknown_file (
+
+%6@>
+3 3(
+%7*%
+
+__unknown_file (	
+
+$stmt2closeDB
+4 4(
+%8*)
+
+__unknown_file (
+
+	$conexion2close"
+5 5(
+
+
+$cliente:
+#( #(2
+
+$idclienteB
+cotizacionmodelH
