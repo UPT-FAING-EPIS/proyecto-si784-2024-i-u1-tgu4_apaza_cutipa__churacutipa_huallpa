@@ -1,53 +1,52 @@
 <?php
+namespace App\Model;
+
+use DB\Conectar;
 class Maquinaria {
     private $db;
+
     public function __construct() {
         $this->db = Conectar::conexion();
     }
+    //CLIENTE
+    // Funcionar para listar maquinarias en Catalogo
+    // Función para listar maquinarias en el catálogo
+    public function listar_Maquinarias() {
+        try {
+            $maquinarias = array();
+            $consulta = $this->db->query("SELECT * FROM tbmaquinaria");
+
+            while ($fila = $consulta->fetch_assoc()) {
+                $maquinarias[] = $fila;
+            }
+
+            return $maquinarias;
+        } finally {
+        }
+    }
+
+
+    public function mostrar_Maquinaria($idmaquinaria) {
+        echo "EN MODEL: id: ";
+        echo $idmaquinaria;
     
-    // CLIENTE
-    // Function to list maquinarias in Catalogo
+        $consulta = $this->db->query("
+            SELECT 
+                tbmaquinaria.*, 
+                tbdetallemaquinaria.* 
+            FROM tbmaquinaria 
+            LEFT JOIN tbdetallemaquinaria 
+            ON tbmaquinaria.idmaquinaria = tbdetallemaquinaria.idmaquinaria 
+            WHERE tbmaquinaria.idmaquinaria = $idmaquinaria
+        ");
+    
+        return $consulta->fetch_assoc();
+    }
+    
+    
+    //ADMINISTRADOR
+    //listar
     public function listarMaquinarias() {
-        $consulta = $this->db->query("SELECT * FROM tbmaquinaria;");
-        while ($filas = $consulta->fetch_assoc()) {
-            $this->maquinaria[] = $filas;
-        }
-        return $this->maquinaria;
-    }
-    
-    // Function to fetch details of a specific maquinaria
-    public function mostrarMaquinaria($idmaquinaria) {
-        // Sanitize the input
-        $idmaquinaria = filter_var($idmaquinaria, FILTER_VALIDATE_INT);
-        if ($idmaquinaria === false) {
-            // Handle invalid input as needed (e.g., throw an exception)
-            throw new Exception("Invalid maquinaria ID");
-        }
-    
-        // Query using prepared statement
-        $sql = "SELECT tbmaquinaria.*, tbdetallemaquinaria.* 
-                FROM tbmaquinaria 
-                LEFT JOIN tbdetallemaquinaria 
-                ON tbmaquinaria.idmaquinaria = tbdetallemaquinaria.idmaquinaria 
-                WHERE tbmaquinaria.idmaquinaria = ?";
-    
-        $stmt = $this->db->prepare($sql);
-        if (!$stmt) {
-            throw new Exception("Error in preparing SQL statement: " . $this->db->error);
-        }
-    
-        $stmt->bind_param("i", $idmaquinaria);
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $maquinaria = $result->fetch_assoc();
-        $stmt->close();
-    
-        return $maquinaria;
-    }
-    
-    // ADMINISTRADOR
-    // listar
-    public function listarMaquinariasAdmin() {
         $maquinarias = array();
         $consulta = $this->db->query("SELECT * FROM tbmaquinaria");
         while ($fila = $consulta->fetch_assoc()) {
@@ -55,8 +54,7 @@ class Maquinaria {
         }
         return $maquinarias;
     }
-    
-    // agregar
+    //agregar
     public function agregarMaquinaria($numserie, $nombre, $marca, $modelo, $costoh, $imagenprincipal) {
         try {
             $sql = "INSERT INTO tbmaquinaria (numserie, nombre, marca, modelo, costoh, imagenprincipal) VALUES (?, ?, ?, ?, ?, ?)";
@@ -73,33 +71,19 @@ class Maquinaria {
             $stmt->close();
             $this->db->close();
             return true;
-        } catch (Exception $e) {
-            echo "Error al agregar la maquinaria: " . $e->getMessage();
-            return false;
+        } finally {	
         }
     }
-    
+
     // Eliminar maquinaria
     public function eliminarMaquinaria($id) {
         try {
             $sql = "DELETE FROM tbmaquinaria WHERE idmaquinaria = ?";
             $stmt = $this->db->prepare($sql);
-            if (!$stmt) {
-                throw new Exception("Error en la preparación de la consulta: " . $this->db->error);
-            }
             $stmt->bind_param("i", $id);
             $stmt->execute();
             
-            // Verificar si se eliminó correctamente al menos una fila
-            if ($stmt->affected_rows > 0) {
-                $stmt->close();
-                return true; // Indicar que la maquinaria se eliminó correctamente
-            } else {
-                $stmt->close();
-                return false; // Indicar que no se eliminó ninguna maquinaria (quizás el ID no existe)
-            }
-        } catch (Exception $e) {
-            throw new Exception("Error al eliminar la maquinaria: " . $e->getMessage());
+        } finally {	
         }
     }
     
@@ -112,12 +96,9 @@ class Maquinaria {
             $stmt->execute();
             $stmt->close();
             return true;
-        } catch (Exception $e) {
-            echo "Error al editar la maquinaria: " . $e->getMessage();
-            return false;
+        } finally {	
         }
     }
-    
     // Buscar
     public function buscarMaquinaria($termino) {
         $maquinarias = array();
@@ -144,5 +125,8 @@ class Maquinaria {
         $stmt->close();
         return $maquinaria;
     }
+
+
 }
+
 ?>

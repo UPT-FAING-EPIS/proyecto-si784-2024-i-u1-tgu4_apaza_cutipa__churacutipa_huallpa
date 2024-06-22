@@ -1,4 +1,8 @@
 <?php
+namespace App\Model;
+
+use DB\Conectar;
+
 class Reserva {
     private $db;
 
@@ -6,7 +10,7 @@ class Reserva {
         $this->db = Conectar::conexion();
     }
 
-    // Listar
+    // Listar todas las reservas
     public function listarReserva() {
         $reservas = array();
         $consulta = $this->db->query("SELECT * FROM tbreserva");
@@ -16,57 +20,48 @@ class Reserva {
         return $reservas;
     }
 
-    // Agregar
+    // Agregar una reserva nueva
     public function agregarReserva($idcliente, $idmaquinaria, $idcotize, $idempleado, $fechareserva, $fechainicio, $fechafin, $estado) {
         try {
             $sql = "INSERT INTO tbreserva (idcliente, idmaquinaria, idcotize, idempleado, fechareserva, fechainicio, fechafin, estado) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
             $stmt = $this->db->prepare($sql);
-            $stmt->bind_param("iiiisssi", $idcliente, $idmaquinaria, $idcotize, $idempleado, $fechareserva, $fechainicio, $fechafin, $estado);
+            $stmt->bind_param("iiiissss", $idcliente, $idmaquinaria, $idcotize, $idempleado, $fechareserva, $fechainicio, $fechafin, $estado);
             $stmt->execute();
             $stmt->close();
             return true;
-        } catch (Exception $e) {
-            echo "Error al agregar la reserva: " . $e->getMessage();
-            return false;
+        } finally {	
         }
     }
+    
 
-    // Eliminar
+    // Eliminar una reserva
     public function eliminarReserva($idreserva) {
         try {
             $sql = "DELETE FROM tbreserva WHERE idreserva = ?";
             $stmt = $this->db->prepare($sql);
-            if (!$stmt) {
-                throw new Exception("Error en la preparación de la consulta: " . $this->db->error);
-            }
             $stmt->bind_param("i", $idreserva);
             $stmt->execute();
-            
             $resultado = $stmt->affected_rows > 0;
             $stmt->close();
             return $resultado;
-        } catch (Exception $e) {
-            echo "Error al eliminar la reserva: " . $e->getMessage();
-            return false;
+        } finally {	
         }
     }
 
-    // Editar
+    // Editar una reserva existente
     public function editarReserva($idreserva, $idcliente, $idmaquinaria, $idcotize, $idempleado, $fechareserva, $fechainicio, $fechafin, $estado) {
         try {
             $sql = "UPDATE tbreserva SET idcliente = ?, idmaquinaria = ?, idcotize = ?, idempleado = ?, fechareserva = ?, fechainicio = ?, fechafin = ?, estado = ? WHERE idreserva = ?";
             $stmt = $this->db->prepare($sql);
-            $stmt->bind_param("iiiisssii", $idcliente, $idmaquinaria, $idcotize, $idempleado, $fechareserva, $fechainicio, $fechafin, $estado, $idreserva);
+            $stmt->bind_param("iiiiisssi", $idcliente, $idmaquinaria, $idcotize, $idempleado, $fechareserva, $fechainicio, $fechafin, $estado, $idreserva);
             $stmt->execute();
             $stmt->close();
             return true;
-        } catch (Exception $e) {
-            echo "Error al editar la reserva: " . $e->getMessage();
-            return false;
+        } finally {	
         }
     }
 
-    // Buscar
+    // Buscar reservas por término
     public function buscarReserva($termino) {
         $reservas = array();
         $termino = "%" . $termino . "%";
@@ -82,7 +77,7 @@ class Reserva {
         return $reservas;
     }
 
-    // Obtener por ID
+    // Obtener reserva por ID
     public function obtenerReservaPorId($idreserva) {
         $sql = "SELECT * FROM tbreserva WHERE idreserva = ?";
         $stmt = $this->db->prepare($sql);
