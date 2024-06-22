@@ -1,0 +1,7 @@
+organization=jesushuallpaepis3
+projectKey=needu3
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.54160
+dashboardUrl=https://sonarcloud.io/dashboard?id=needu3
+ceTaskId=AY9C7chXxPA4Ud9hyOfe
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY9C7chXxPA4Ud9hyOfe
